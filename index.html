@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <title>Portfolio</title>
+  <style>
+    .project-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+    }
+
+   
+  </style>
+</head>
+<body class="bg-gray-100">
+  <header class="bg-gray-500 text-white">
+    <div class="container mx-auto py-4 px-8">
+      <h1 class="text-4xl font-bold">Adam Zawistowski</h1>
+      <nav class="mt-4">
+        <ul class="flex space-x-4">
+          <li><a href="#" class="hover:text-gray-300">Home</a></li>
+          <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+          <li><a href="Projects.html" class="hover:text-gray-300">Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container mx-auto py-8 px-8">
+    <section class="my-8">
+      <h2 class="text-5xl font-bold text-gray-800">About Me</h2>
+      <p class="text-gray-700 text-2xl mt-4">My name is Adam, i am an aspiring bodybuilder and a personal trainer. I have been strenght training for 4 years now, i have read several books regarding
+        this topic, as well as other topics including self improvement diet, etc. </p>
+    </section>
+    <section class="my-8">
+      <h2 class="text-3xl font-bold text-gray-800">Projects</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <a href="diet.html">
+          <img src="https://media.healthyfood.com/wp-content/uploads/2020/12/3-ways-to-keep-red-meat-in-your-diet-and-be-healthier-iStock-1155240408.jpg" alt="Project 1" class="w-full h-48 object-cover bg-white rounded-lg overflow-hidden shadow-md project-card transition-transform duration-300">
+         </a>
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Diet plan</h3>
+            <p class="text-gray-700">An optimal diet plan for anyone</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <a href="workout.html">
+            <img src="https://t4.ftcdn.net/jpg/03/17/72/47/360_F_317724775_qHtWjnT8YbRdFNIuq5PWsSYypRhOmalS.jpg" alt="Training plan" class="w-full h-48 object-cover bg-white rounded-lg overflow-hidden shadow-md project-card transition-transform duration-300">
+         </a>
+            <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Training plan</h3>
+            <p class="text-gray-700">A training plan for anyone, from amatour to advanced.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <a href="oneononecall.html">
+         <img src="https://www.nasdaq.com/sites/acquia.prod/files/styles/720x400/public/image/06c116f156a377f24f71763d6742e77226081ca9_finance36.jpg?1687363902146075896" alt="Project 3" class="w-full h-48 object-cover bg-white rounded-lg overflow-hidden shadow-md project-card transition-transform duration-300">
+         </a>
+         <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Private call</h3>
+            <p class="text-gray-700">A private call, using discord to talk about diet, training, lifestyle and self improvement.</p>
+            
+        </section>
+    </main>
+  
+    <footer class="bg-gray-300 py-8">
+      <div class="container mx-auto px-8">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Contact Me</h2>
+        <p class="text-gray-700 mb-4">Feel free to reach out to me for any inquiries or collaboration opportunities.</p>
+        <div class="flex items-center space-x-4">
+          <a href="mailto:yourname@example.com" class="text-blue-500 hover:underline">Email</a>
+          <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">LinkedIn</a>
+          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Twitter</a>
+          <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Instagram</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  </html>
